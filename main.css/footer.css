@@ -1,0 +1,141 @@
+.footer__content {
+  background-color: #18154b;
+}
+.footer__body {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 70px 0px 60px 0px;
+}
+
+.footer__logo img {
+  margin-bottom: 16px;
+}
+.footer__info {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #b8b8b8;
+  white-space: nowrap;
+}
+.footer__nav {
+  flex-direction: column;
+}
+.nav__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #b8b8b8;
+  margin-bottom: 20px;
+}
+.footer__link {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.footer__link:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.goods__subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #b8b8b8;
+  margin-bottom: 20px;
+}
+.goods__menu {
+  flex-direction: column;
+}
+.goods__link {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.goods__link:not(:last-child) {
+  margin-bottom: 8px;
+}
+.footer__btn {
+  display: flex;
+  flex-direction: column;
+}
+.footer__button {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #18154b;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 15px 39px;
+  white-space: nowrap;
+  margin-bottom: 104px;
+}
+.footer__button:hover {
+  box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.4);
+}
+.btn__link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: right;
+  color: #b8b8b8;
+  margin-bottom: 8px;
+}
+.btn__links {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: right;
+  color: #b8b8b8;
+  white-space: nowrap;
+}
+.footer__info-mobile {
+  display: none;
+}
+@media (max-width: 750px) {
+  .footer__body {
+    padding: 40px 0px 40px 0px;
+  }
+}
+
+@media (max-width: 670px) {
+  .footer__btn {
+    align-items: center;
+    margin-top: 20px;
+  }
+  .footer__button {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__btn {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__body {
+    flex-direction: column;
+  }
+  .footer__btn {
+    align-items: flex-start;
+  }
+  .footer__info {
+    display: none;
+  }
+  .footer__info-mobile {
+    display: flex;
+  }
+  .btn__links {
+    margin-bottom: 15px;
+  }
+  .footer__nav {
+    margin-bottom: 15px;
+  }
+}

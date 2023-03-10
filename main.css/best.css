@@ -1,0 +1,135 @@
+.best__content {
+  position: relative;
+}
+.best__title {
+  margin-bottom: 40px;
+}
+
+.swiper-slide {
+  margin-right: 10px;
+}
+
+.slider__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 380px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 18px 16px 20px 20px;
+}
+.slider__info {
+  display: flex;
+  justify-content: space-between;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 0px;
+}
+.info-span {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  background: #f0f5fb;
+  border-radius: 4px;
+  padding: 3px 10px;
+}
+.info-svg {
+  cursor: pointer;
+}
+.info-svg:hover path {
+  stroke: #18154b;
+}
+/* .slider__img {
+  margin-bottom: 10px;
+} */
+.slider__subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #303239;
+}
+.slider__span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9b9b9b;
+}
+.slider__price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price-slider {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #303239;
+}
+.price-slider-circle {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #38b0c1;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.price-svg {
+  cursor: pointer;
+}
+
+.slider__btn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 13px 35px;
+  box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+  white-space: nowrap;
+  text-align: center;
+}
+.slider__btn:hover {
+  background: linear-gradient(73.56deg, #0d748b -10.13%, #1a0b73 75.49%),
+    #ffffff;
+  box-shadow: 0px 4px 20px rgba(26, 11, 115, 0.4);
+}
+.slider__btn:active {
+  background: linear-gradient(
+      0deg,
+      rgba(24, 21, 75, 0.6),
+      rgba(24, 21, 75, 0.6)
+    ),
+    linear-gradient(73.56deg, #0d748b -10.13%, #1a0b73 75.49%);
+}
+
+@media (max-width: 425px) {
+  .swiper-slide {
+    max-width: 145px;
+  }
+  .slider__body {
+    padding: 15px 15px 15px 15px;
+  }
+  .slider__subtitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .slider__span {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .price-slider {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .slider__img {
+    text-align: center;
+  }
+  .slider__btn {
+    padding: 8px 18px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
